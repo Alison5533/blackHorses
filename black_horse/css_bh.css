@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(248, 242, 242);
+    z-index: 2;
+}
+#logo{
+    height: 130px;
+    float: left;
+}
+#logo_name{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 45px 0px 0px 25px;
+    text-decoration: underline;
+    float: left;
+}
+#menu{
+    padding: 50px 40px 0px 0px;
+    text-align: right;
+}
+.menu_links{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 20px 0px 20px;
+}
+.menu_links:hover{
+    font-weight: bold;
+}
+#im{
+    display: block;
+    top: 300px;
+    width: 100%;
+    height: 80%;
+
+}
+#div-bg-picture{
+    /* background-image: url('img/лошадь.jpg'); */
+    width: 100%;
+    height: 800px;
+    /* background-repeat: no-repeat; */
+}
+#bg-picture{
+    margin: 6.6% 0px 0px 0px;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    opacity: 0.85;
+    z-index: 0;
+}
+.text-bg-picture{
+    position: absolute;
+    top: 420px;
+    left: 40%;
+    font-weight: bold;
+    font-size: 60px;
+    z-index: 1;
+    text-shadow: 3px 0px  white;
+}
+#text-2{
+    top: 500px;
+    left: 34%;
+}
+#welcome{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 7px 0px 0px 0px;
+}
+#div-welcome{
+    border: 5px solid rgb(250, 239, 239);
+    border-radius: 20px;
+    width: 600px;
+    height: 50px;
+    margin: auto;
+}
+.container-text{
+    font-size: 25px;
+}
+#p-ac{
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
+
+
+
+
+#p-social{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+#div-social{
+    border: 5px solid rgb(250, 233, 233);
+    border-radius: 20px;
+    width: 870px;
+    height: 50px;
+    margin: 20px 0px 0px 28%;
+}
+#img-insta{
+    width: 200px;
+    height: 200px;
+    margin: 20px 0px 0px 0px;
+}
+#img-vk{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px 50px 0px 700px;
+}
+#social{
+    background-color:  rgba(238, 234, 234, 0.637);
+}
+
+
+
+
+/* мой размер */
+@media(min-width: 1200px){
+    
+}
+
+
+ 
+@media(min-width: 992px) and (max-width: 1199px){
+    #div-bg-picture{
+        height: 500px;
+    }
+    #logo{
+        height: 120px;
+        width: 87.5;
+    }
+    header{
+        height: 120px;
+    }
+    #container{
+        margin-top: -50px;
+    }
+    .text-bg-picture{
+        top: 330px;
+        left: 33%;
+    }
+    #text-2{
+        top: 400px;
+        left: 24%;
+    }
+    #logo_name{
+        font-size: 30px;
+    }
+    .menu_links{
+        padding: 0px 15px 0px 15px;
+    }
+    
+    #div-social{
+        margin-left: 12%;
+    }
+    #img-vk{
+        margin-left: 30%;
+    }
+}
+
+
+
+@media(min-width: 768px) and (max-width: 991px){  
+    #div-bg-picture{
+        height: 500px;
+    }
+    #menu{
+        padding: 50px 0px 0px 0px;
+    }
+    #logo{
+        height: 120px;
+        width: 87.5;
+    }
+    header{
+        height: 120px;
+    }
+    #container{
+        margin-top: -50px;
+    }
+    .text-bg-picture{
+        top: 330px;
+        left: 32%;
+        font-size: 50px;
+    }
+    #text-2{
+        top: 400px;
+        left: 23%;
+    }
+    #logo_name{
+        font-size: 25px;
+        padding: 45px 0px 0px 20px;
+    }
+    .menu_links{
+        padding: 0px 10px 0px 10px;
+        font-size: 23px;
+    }
+    
+    #div-social{
+        margin-left: 4.5%;
+    }
+    #img-vk{
+        margin-left: 30%;
+        width: 160px;
+        height: 160px;
+    }
+    #img-insta{
+        width: 160px;
+        height: 160px;
+    }
+} 
+
+
+/* 766 */
+@media(max-width: 767px){
+    #div-bg-picture{
+        height: 400px;
+    }
+    #p-social{
+        font-size: 23px;
+    }
+    #menu{
+        padding: 50px 0px 0px 0px;
+    }
+    #logo{
+        height: 120px;
+        width: 87.5;
+    }
+    header{
+        height: 120px;
+    }
+    #container{
+        margin-top: -50px;
+    }
+    .text-bg-picture{
+        top: 310px;
+        left: 32%;
+        font-size: 40px;
+    }
+    #text-2{
+        top: 380px;
+        left: 23%;
+    }
+    #logo_name{
+        font-size: 25px;
+        padding: 45px 0px 0px 20px;
+    }
+    .menu_links{
+        padding: 0px 10px 0px 10px;
+        font-size: 23px;
+    }
+    
+    #div-social{
+        width: 740px;
+        margin-left: 0px;
+    }
+    #img-vk{
+        margin-left: 26%;
+        width: 160px;
+        height: 160px;
+    }
+    #img-insta{
+        width: 160px;
+        height: 160px;
+    }
+}
+@media(max-width: 480px){
+    #div-bg-picture{
+        height: 250px;
+    }
+    #p-social{
+        font-size: 19px;
+    }
+    #menu{
+        padding: 50px 0px 0px 0px;
+    }
+    #logo{
+        height: 90px;
+        width: 57.5;
+    }
+    header{
+        height: 90px;
+    }
+    #container{
+        margin-top: -50px;
+    }
+    .text-bg-picture{
+        top: 200px;
+        left: 32%;
+        font-size: 25px;
+    }
+    #text-2{
+        top: 240px;
+        left: 23%;
+    }
+    #logo_name{
+        font-size: 20px;
+        padding: 45px 0px 0px 20px;
+    }
+    .menu_links{
+        padding: 0px 10px 0px 10px;
+        font-size: 23px;
+    }
+    #div-welcome{
+        margin-top: 30px;
+        width: 380px;
+        height: 40px;
+    }
+    #welcome{
+        font-size: 20px;
+    }
+    #container-text{
+        font-size: 18px;
+    }
+    
+    #div-social{
+        height: 70px;
+        width: 455px;
+        margin-left: 0px;
+        margin: auto;
+    }
+    #img-vk{
+        margin-left: 24%;
+        width: 100px;
+        height: 100px;
+    }
+    #img-insta{
+        width: 100px;
+        height: 100px;
+    }
+    #social{
+        height: 250px;
+        bottom: 0px;
+    }
+} 
